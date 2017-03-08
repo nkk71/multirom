@@ -30,7 +30,7 @@ common_C_INCLUDES := $(multirom_local_path)/lib \
 
 # With these, GCC optimizes aggressively enough so full-screen alpha blending
 # is quick enough to be done in an animation
-common_C_FLAGS := -O3 -funsafe-math-optimizations
+common_C_FLAGS := -O3 -funsafe-math-optimizations -Wno-error=implicit-function-declaration
 
 ifeq ($(MR_INPUT_TYPE),)
     MR_INPUT_TYPE := type_b

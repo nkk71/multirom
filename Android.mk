@@ -29,6 +29,8 @@ LOCAL_CFLAGS += -O3 -funsafe-math-optimizations
 
 #LOCAL_CFLAGS += -D_FORTIFY_SOURCE=2 -fstack-protector-all -O0 -g -fno-omit-frame-pointer -Wall
 
+LOCAL_CFLAGS += -Wno-error=implicit-function-declaration
+
 LOCAL_MODULE:= multirom
 LOCAL_MODULE_TAGS := eng
 
