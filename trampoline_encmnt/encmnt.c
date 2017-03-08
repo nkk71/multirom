@@ -20,6 +20,7 @@
 #include <unistd.h>
 #include <dirent.h>
 #include <errno.h>
+#include <stdlib.h>
 
 #include "../lib/log.h"
 #include "../lib/fstab.h"
